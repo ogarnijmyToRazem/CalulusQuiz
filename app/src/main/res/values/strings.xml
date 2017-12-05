@@ -1,0 +1,35 @@
+<resources>
+    <string name="app_name">Calculus Quiz</string>
+    <string name="header">Test your Calculus!</string>
+    <string name="question1">1. What is the derivative of f where f(x) = cos(x)?</string>
+    <string name="question2">2. What is the area bounded by functions f(x) = e^x, g(x) = x^2 and by curves x = 2, x = 5?</string>
+    <string name="question3">3. Check all functions differentiable in x = 0.</string>
+    <string name="question4">4. Which statement is true? Check all that applies.</string>
+    <string name="question5">5. What is the limit of sequence a_n = n*sin(2/n) when n goes to infinity?</string>
+    <string name="question6">6. Check all functions continuous in x = 0.</string>
+    <string name="question7">7. Which statement is true? Check all that applies.</string>
+    <string name="question8">8. What is the limit of function f(x) = ln(x) when x goes to zero from right side?</string>
+    <string name="question9">9. Which equasion is true? Check all that applies.</string>
+    <string name="question10">10. Which number series is convergent? Check all that applies.</string>
+
+    <string name="answer11">tan(x)</string>
+    <string name="answer12">x</string>
+    <string name="answer13">-sin(x)</string>
+    <string name="answer14">-sec(x)</string>
+
+    <string name="answer21">16.35</string>
+    <string name="answer22">48.29</string>
+    <string name="answer23">102.02</string>
+    <string name="answer24">631.12</string>
+
+    <string name="answer31">1/(x+1)</string>
+    <string name="answer32">|x|</string>
+    <string name="answer33">ln(x+1)</string>
+    <string name="answer34">e^|x|</string>
+
+    <string name="answer41">1/(x+1)</string>
+    <string name="answer42">|x|</string>
+    <string name="answer43">ln(x+1)</string>
+    <string name="answer44">e^|x|</string>
+
+</resources>

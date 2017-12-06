@@ -3,7 +3,7 @@
     <string name="header">Test your Calculus!</string>
     <string name="infinity_text">If answer is infinity write \"infinity\", if answer is -infinity write \"-infinity\". Without quotation mark.</string>
     <string name="question1">1. What is the derivative of f where f(x) = cos(x)?</string>
-    <string name="question2">2. What is the area bounded by functions f(x) = e^x, g(x) = x^2 and by curves x = 2, x = 5?</string>
+    <string name="question2">2. What is the area bounded by functions f(x) = e^x, g(x) = x^2 and by curves x = 2, x = 5? Write the answer with two decimal place.</string>
     <string name="question3">3. Check all functions differentiable in x = 0.</string>
     <string name="question4">4. Which statement is true? Check all that applies.</string>
     <string name="question5">5. What is the limit of sequence a_n = n*sin(2/n) when n goes to infinity?</string>
@@ -42,6 +42,11 @@
     <string name="answer72">f(g)\'=f\'(g)*g\'</string>
     <string name="answer73">(f^-1)\'=1/f\'</string>
     <string name="answer74">(f/g)\'=(fg\'-f\'g)/g^2</string>
+
+    <string name="answer81">0</string>
+    <string name="answer82">infinity</string>
+    <string name="answer83">1</string>
+    <string name="answer84">-infinity</string>
 
     <string name="answer91">sin(x)cos^2(x)+sin^3(x) = sin(x)</string>
     <string name="answer92">tg\'(x) = 1/cos^3(x)</string>

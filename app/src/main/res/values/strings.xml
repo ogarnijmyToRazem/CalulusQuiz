@@ -1,6 +1,7 @@
 <resources>
     <string name="app_name">Calculus Quiz</string>
     <string name="header">Test your Calculus!</string>
+    <string name="infinity_text">If answer is infinity write \"infinity\", if answer is -infinity write \"-infinity\". Without quotation mark.</string>
     <string name="question1">1. What is the derivative of f where f(x) = cos(x)?</string>
     <string name="question2">2. What is the area bounded by functions f(x) = e^x, g(x) = x^2 and by curves x = 2, x = 5?</string>
     <string name="question3">3. Check all functions differentiable in x = 0.</string>
@@ -9,8 +10,8 @@
     <string name="question6">6. Check all functions continuous in x = 0.</string>
     <string name="question7">7. Which statement is true? Check all that applies.</string>
     <string name="question8">8. What is the limit of function f(x) = ln(x) when x goes to zero from right side?</string>
-    <string name="question9">9. Which equasion is true? Check all that applies.</string>
-    <string name="question10">10. Which number series is convergent? Check all that applies.</string>
+    <string name="question9">9. Which equation is true? Check all that applies.</string>
+    <string name="question10">10. Which number series is convergent? Check all that applies. Below is given formula for nth index of sequence of the series.</string>
 
     <string name="answer11">tan(x)</string>
     <string name="answer12">x</string>
@@ -27,9 +28,30 @@
     <string name="answer33">ln(x+1)</string>
     <string name="answer34">e^|x|</string>
 
-    <string name="answer41">1/(x+1)</string>
-    <string name="answer42">|x|</string>
-    <string name="answer43">ln(x+1)</string>
-    <string name="answer44">e^|x|</string>
+    <string name="answer41">If function f is continuous in x then f is differentiable in x</string>
+    <string name="answer42">If function f is differentiable in x then f is continuous in x</string>
+    <string name="answer43">If limit of sequence equals 0 then series of this sequence is convergent.</string>
+    <string name="answer44">If series is convergent then limit of sequence of this series is 0.</string>
+
+    <string name="answer61">1/x</string>
+    <string name="answer62">ln(x)</string>
+    <string name="answer63">e^|x|</string>
+    <string name="answer64">1/(x^2 -1)</string>
+
+    <string name="answer71">(fg)\'=f\'g-fg\'</string>
+    <string name="answer72">f(g)\'=f\'(g)*g\'</string>
+    <string name="answer73">(f^-1)\'=1/f\'</string>
+    <string name="answer74">(f/g)\'=(fg\'-f\'g)/g^2</string>
+
+    <string name="answer91">sin(x)cos^2(x)+sin^3(x) = sin(x)</string>
+    <string name="answer92">tg\'(x) = 1/cos^3(x)</string>
+    <string name="answer93">arc cos(x)+arc sin(x)=PI/2</string>
+    <string name="answer94">cosh(2x)=cosh^2(x)+sinh^2(x)</string>
+
+    <string name="answer101">1/n</string>
+    <string name="answer102">1/n^0.5</string>
+    <string name="answer103">1/n^2</string>
+    <string name="answer104">1/n^1.5</string>
+
 
 </resources>

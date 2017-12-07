@@ -18,11 +18,6 @@
     <string name="answer13">-sin(x)</string>
     <string name="answer14">-sec(x)</string>
 
-    <string name="answer21">16.35</string>
-    <string name="answer22">48.29</string>
-    <string name="answer23">102.02</string>
-    <string name="answer24">631.12</string>
-
     <string name="answer31">1/(x+1)</string>
     <string name="answer32">|x|</string>
     <string name="answer33">ln(x+1)</string>

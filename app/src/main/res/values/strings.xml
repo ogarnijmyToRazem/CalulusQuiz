@@ -1,4 +1,4 @@
-<resources>
+<resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
     <string name="app_name">Calculus Quiz</string>
     <string name="header">Test your Calculus!</string>
     <string name="infinity_text">If answer is infinity write \"infinity\", if answer is -infinity write \"-infinity\". Without quotation mark.</string>
@@ -52,6 +52,9 @@
     <string name="answer102">1/n^0.5</string>
     <string name="answer103">1/n^2</string>
     <string name="answer104">1/n^1.5</string>
+
+    <string name="submit">submit</string>
+    <string name="point_text">Your score is: <xliff:g id="points" example="10">%d</xliff:g></string>
 
 
 </resources>

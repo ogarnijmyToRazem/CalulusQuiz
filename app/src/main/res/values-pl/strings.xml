@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+    <string name="app_name">Calculus Quiz</string>
+    <string name="header">Całki i różniczki!</string>
+    <string name="question1">1. Jaka jest pochodna f, gdzie f(x) = cos(x)?</string>
+    <string name="question2">2. Jakie jest pole obszaru ograniczonego funkcjami f(x) = e^x, g(x) = x^2 oraz prostymi x = 2, x = 5? Odpowiedź zaokrąglij do dwóch miejsc po przecinku.</string>
+    <string name="question3">3. Zaznacz wszystkie funkcje różniczkowalne dla x = 0.</string>
+    <string name="question4">4. Które zdanie jest prawdziwe? Zaznacz wszystkie.</string>
+    <string name="question5">5. Jaka jest granica ciągu a_n = n*sin(2/n) gdy n dąży do nieskończoności?</string>
+    <string name="question6">6. Zaznacz wszystkie funkcje ciągłe dla x = 0.</string>
+    <string name="question7">7. Które zdanie jest prawdziwe? Zaznacz wszystkie.</string>
+    <string name="question8">8. Jaka jest granica funkcji f(x) = ln(x) gdy x dąży do 0 z prawej strony?</string>
+    <string name="question9">9. Która równość jest prawdziwa? Zaznacz wszystkie.</string>
+    <string name="question10">10. Który szereg jest zbieżny? Zaznacz wszystkie. Poniżej podany jest wzór n-tego wyrazu szeregu.</string>
+    <string name="answer11">tg(x)</string>
+    <string name="answer41">Jeśli funkcja f jest ciągła w x to f jest różniczkowalna w x.</string>
+    <string name="answer42">Jeśli funkcja f jest różniczkowalna w x to f jest ciągła w x.</string>
+    <string name="answer43">Jeśli granica ciągu wynosi 0 to szereg z tego ciągu jest zbieżny.</string>
+    <string name="answer44">Jeśli szereg jest zbieżny to ciąg jego wyrazów jest zbieżny do 0.</string>
+    <string name="answer82">nieskończoność</string>
+    <string name="answer84">-nieskończoność</string>
+    <string name="answer92">tg\'(x)=1/cos^3(x)</string>
+    <string name="submit">wyślij</string>
+    <string name="point_text">Twój wynik to: <xliff:g id="points" example="10">%d</xliff:g></string>
+</resources>

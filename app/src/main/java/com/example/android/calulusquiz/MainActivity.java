@@ -3,9 +3,12 @@ package com.example.android.calulusquiz;
 import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
 import android.view.View;
+import android.view.ViewGroup;
 import android.widget.CheckBox;
 import android.widget.EditText;
+import android.widget.LinearLayout;
 import android.widget.RadioButton;
+import android.widget.RadioGroup;
 import android.widget.TextView;
 
 public class MainActivity extends AppCompatActivity {
@@ -55,7 +58,11 @@ public class MainActivity extends AppCompatActivity {
         getAnswers();
         checkAnswers();
         setPointText();
-        points=0;
+        points = 0;
+        unCheck();
+        LinearLayout layout=findViewById(R.id.layout1);
+//        layout.setDescendantFocusability(ViewGroup.FOCUS_BEFORE_DESCENDANTS);
+//        layout.setFocusableInTouchMode(true);
     }
 
     public void getAnswers() {
@@ -131,11 +138,68 @@ public class MainActivity extends AppCompatActivity {
         }
     }
 
+    public void unCheck() {
+        unCheckRadioGroup(R.id.answer1);
+
+        unCheckEditText(R.id.answer21);
+
+        unCheckCheckBox(R.id.answer31);
+        unCheckCheckBox(R.id.answer32);
+        unCheckCheckBox(R.id.answer33);
+        unCheckCheckBox(R.id.answer34);
+
+        unCheckCheckBox(R.id.answer41);
+        unCheckCheckBox(R.id.answer42);
+        unCheckCheckBox(R.id.answer43);
+        unCheckCheckBox(R.id.answer44);
+
+        unCheckEditText(R.id.answer51);
+
+        unCheckCheckBox(R.id.answer61);
+        unCheckCheckBox(R.id.answer62);
+        unCheckCheckBox(R.id.answer63);
+        unCheckCheckBox(R.id.answer64);
+
+        unCheckCheckBox(R.id.answer71);
+        unCheckCheckBox(R.id.answer72);
+        unCheckCheckBox(R.id.answer73);
+        unCheckCheckBox(R.id.answer74);
+
+        unCheckRadioGroup(R.id.answer8);
+
+        unCheckCheckBox(R.id.answer91);
+        unCheckCheckBox(R.id.answer92);
+        unCheckCheckBox(R.id.answer93);
+        unCheckCheckBox(R.id.answer94);
+
+        unCheckCheckBox(R.id.answer101);
+        unCheckCheckBox(R.id.answer102);
+        unCheckCheckBox(R.id.answer103);
+        unCheckCheckBox(R.id.answer104);
+    }
+
     public void setPointText() {
         TextView pointTextView = findViewById(R.id.points);
         String pointText = getString(R.string.point_text, points);
         pointTextView.setText(pointText);
         pointTextView.setVisibility(View.VISIBLE);
+    }
+
+    public void unCheckCheckBox(int id) {
+        CheckBox answer = findViewById(id);
+        if (answer.isChecked()) {
+            answer.setChecked(false);
+        }
+    }
+
+    public void unCheckRadioGroup(int id) {
+        RadioGroup answer = findViewById(id);
+        answer.clearCheck();
+    }
+
+    public void unCheckEditText(int id){
+        EditText answer=findViewById(id);
+        answer.setText("");
     }
 
     public int getAnswerRadioButton(int id1, int id2, int id3, int id4) {

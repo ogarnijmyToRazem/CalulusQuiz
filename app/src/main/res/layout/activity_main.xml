@@ -14,12 +14,12 @@
         android:focusableInTouchMode="true"
         android:background="#fff59d"
         android:orientation="vertical"
-        android:padding="12dp">
+        android:padding="@dimen/padding">
 
         <TextView
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:layout_marginBottom="12dp"
+            android:layout_marginBottom="@dimen/margin_bottom"
             android:gravity="center_horizontal"
             android:text="@string/header"
             android:textSize="36sp" />
@@ -27,7 +27,7 @@
         <TextView
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:layout_marginBottom="12dp"
+            android:layout_marginBottom="@dimen/margin_bottom"
             android:text="@string/question1"
             android:textAppearance="@style/TextAppearance.AppCompat.Large" />
 
@@ -35,7 +35,7 @@
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:id="@+id/answer1"
-            android:layout_marginBottom="12dp"
+            android:layout_marginBottom="@dimen/margin_bottom"
             android:orientation="vertical">
 
             <RadioButton
@@ -74,7 +74,7 @@
         <TextView
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:layout_marginBottom="12dp"
+            android:layout_marginBottom="@dimen/margin_bottom"
             android:text="@string/question2"
             android:textAppearance="@style/TextAppearance.AppCompat.Large" />
 
@@ -82,20 +82,20 @@
             android:id="@+id/answer21"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:layout_marginBottom="12dp"
+            android:layout_marginBottom="@dimen/margin_bottom"
             android:textAppearance="@style/TextAppearance.AppCompat.Medium" />
 
         <TextView
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:layout_marginBottom="12dp"
+            android:layout_marginBottom="@dimen/margin_bottom"
             android:text="@string/question3"
             android:textAppearance="@style/TextAppearance.AppCompat.Large" />
 
         <LinearLayout
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:layout_marginBottom="12dp"
+            android:layout_marginBottom="@dimen/margin_bottom"
             android:orientation="vertical">
 
             <LinearLayout
@@ -146,14 +146,14 @@
         <TextView
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:layout_marginBottom="12dp"
+            android:layout_marginBottom="@dimen/margin_bottom"
             android:text="@string/question4"
             android:textAppearance="@style/TextAppearance.AppCompat.Large" />
 
         <LinearLayout
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:layout_marginBottom="12dp"
+            android:layout_marginBottom="@dimen/margin_bottom"
             android:orientation="vertical">
 
             <CheckBox
@@ -192,7 +192,7 @@
         <TextView
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:layout_marginBottom="12dp"
+            android:layout_marginBottom="@dimen/margin_bottom"
             android:text="@string/question5"
             android:textAppearance="@style/TextAppearance.AppCompat.Large" />
 
@@ -200,20 +200,20 @@
             android:id="@+id/answer51"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:layout_marginBottom="12dp"
+            android:layout_marginBottom="@dimen/margin_bottom"
             android:textAppearance="@style/TextAppearance.AppCompat.Medium" />
 
         <TextView
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:layout_marginBottom="12dp"
+            android:layout_marginBottom="@dimen/margin_bottom"
             android:text="@string/question6"
             android:textAppearance="@style/TextAppearance.AppCompat.Large" />
 
         <LinearLayout
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:layout_marginBottom="12dp"
+            android:layout_marginBottom="@dimen/margin_bottom"
             android:orientation="vertical">
 
             <LinearLayout
@@ -264,14 +264,14 @@
         <TextView
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:layout_marginBottom="12dp"
+            android:layout_marginBottom="@dimen/margin_bottom"
             android:text="@string/question7"
             android:textAppearance="@style/TextAppearance.AppCompat.Large" />
 
         <LinearLayout
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:layout_marginBottom="12dp"
+            android:layout_marginBottom="@dimen/margin_bottom"
             android:orientation="vertical">
 
             <LinearLayout
@@ -322,7 +322,7 @@
         <TextView
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:layout_marginBottom="12dp"
+            android:layout_marginBottom="@dimen/margin_bottom"
             android:text="@string/question8"
             android:textAppearance="@style/TextAppearance.AppCompat.Large" />
 
@@ -330,7 +330,7 @@
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:id="@+id/answer8"
-            android:layout_marginBottom="12dp"
+            android:layout_marginBottom="@dimen/margin_bottom"
             android:orientation="vertical">
 
             <RadioButton
@@ -369,14 +369,14 @@
         <TextView
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:layout_marginBottom="12dp"
+            android:layout_marginBottom="@dimen/margin_bottom"
             android:text="@string/question9"
             android:textAppearance="@style/TextAppearance.AppCompat.Large" />
 
         <LinearLayout
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:layout_marginBottom="12dp"
+            android:layout_marginBottom="@dimen/margin_bottom"
             android:orientation="vertical">
 
             <CheckBox
@@ -415,14 +415,14 @@
         <TextView
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:layout_marginBottom="12dp"
+            android:layout_marginBottom="@dimen/margin_bottom"
             android:text="@string/question10"
             android:textAppearance="@style/TextAppearance.AppCompat.Large" />
 
         <LinearLayout
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:layout_marginBottom="12dp"
+            android:layout_marginBottom="@dimen/margin_bottom"
             android:orientation="vertical">
 
             <LinearLayout
@@ -475,7 +475,7 @@
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_gravity="center_horizontal"
-            android:layout_marginBottom="12dp"
+            android:layout_marginBottom="@dimen/margin_bottom"
             android:textAppearance="@style/TextAppearance.AppCompat.Large"
             android:visibility="invisible" />
 

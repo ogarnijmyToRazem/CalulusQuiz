@@ -60,7 +60,7 @@ public class MainActivity extends AppCompatActivity {
         setPointText();
         points = 0;
         unCheck();
-        LinearLayout layout=findViewById(R.id.layout1);
+//        LinearLayout layout=findViewById(R.id.layout1);
 //        layout.setDescendantFocusability(ViewGroup.FOCUS_BEFORE_DESCENDANTS);
 //        layout.setFocusableInTouchMode(true);
     }
